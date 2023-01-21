@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.2%;
+  --bg-color: hsl(240, 5%, 4%);
+  --primary-color: hsla(258, 90%, 66%, 1);
+  --secondary-color: hsla(240, 4%, 16%, 1);
+  --primary-light: hsla(255, 92%, 76%, 1);
+  --text-color: hsla(240, 5%, 65%, 1);
+
+}
+
+
+body {
+  background: var(--bg-color);
+
+
+  height: 100vh;
+}
+
+header{
+display: flex;
+align-items: center;
+
+justify-content: space-between;
+padding: 4.8rem;
+
+position: fixed;
+background-color: var(--bg-color);
+width: 100%;
+}
+
+button {
+  padding: 1.6rem 2.4rem;
+  border-radius: 0.8rem;
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 125%;
+}
+
+form{
+  display: flex;
+  
+  padding: 18.2rem 4.8rem 4.8rem;
+
+  width: fit-content;
+}
+
+.habits {
+  margin-top: 5.8rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.habit {
+  width: 6.4rem;
+  height: 6.4rem;
+
+  font-size: 3.2rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.days{
+  display: flex;
+  gap: 4.8rem;
+  margin-left: 3.2rem;
+}
+
+.day{
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+}
+
+.day div{
+margin-bottom: 0.8rem;
+
+font-family: "roboto mono";
+font-size: 2.0rem;
+line-height: 125%;
+
+color: var(--text-color);
+
+text-align: center;
+}
+
+input {
+appearance: none;
+-webkit-appearance: none;
+
+  width: 6.4rem;
+  height: 6.4rem;
+
+  border: 0.2rem solid var(--bg-color);
+  border-radius: 0.8rem;
+  
+  background: var(--secondary-color);
+
+}
+
+
+input:checked { 
+  background: var(--primary-color);
+  border: 0.2rem solid var(--primary-light);
+}
+
+
+@media (max-width: 570px) {
+  button div{
+    display: none;
+  }
+}
