@@ -3,7 +3,7 @@
 
 ![Preview](./.github/preview.png)
 
-O projeto pode ser acesso no link
+O projeto pode ser acesso no link https://eduardoex.github.io/nlw-setup/
 
 ##  Tecnologias
 
