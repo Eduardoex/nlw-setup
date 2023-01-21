@@ -12,6 +12,10 @@ O projeto pode ser acesso no link https://eduardoex.github.io/nlw-setup/
 - Git e Github
 - javascript
 
+## layout
+
+Você pode visualizar o layout do projeto em [Neste link](#https://www.figma.com/community/file/1195327109778210238)
+
 ## contato
 
 eduardodelimaex@gmail.com
